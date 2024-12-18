@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Usage of Prompt</title>
+    <script src="./prac.js"></script>
+  </head>
+  <body>
+    <script>
+      let student = prompt("Enter ur name:");
+      let stu = {
+        name: student,
+        companyname: "MindTree",
+        package: "4,25,000",
+        domain: "Full-stack-developer",
+        joininddate: "04/01/2025",
+      };
+      alert(
+        `${stu.name} got placed in ${stu.companyname} as a ${stu.domain} at a package of ${stu.package}  and  joining date is ${stu.joininddate}`
+      );
+    </script>
+  </body>
+</html>
